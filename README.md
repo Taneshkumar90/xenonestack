@@ -23,15 +23,15 @@ man ./internsctl.sh
 
 
 
-# internsctl - Custom Linux Command for Operations
+ **internsctl - Custom Linux Command for Operations**
 
 
 
-# Function to display manual page
+ **Function to display manual page**
 
 show_manual() 
 
-# Function to display help
+**Function to display help**
 
 show_help()
 

@@ -27,23 +27,46 @@ man ./internsctl.sh
 
 
 
- **Function to display manual page**
+ Commands and Options
+cpu getinfo: Get CPU information.
 
-show_manual() 
+bash
 
-**Function to display help**
+internsctl cpu getinfo
+memory getinfo: Get memory information.
 
-show_help()
+bash
 
+internsctl memory getinfo
+user create <username>: Create a new user.
 
+bash
 
-**2. Help Option:**
+internsctl user create <username>
+user list [--sudo-only]: List all regular users or users with sudo permissions.
 
-./internsctl.sh --help
+bash
 
-**3. Version Option:**
+internsctl user list
+internsctl user list --sudo-only
+file getinfo <file-name> [--size | -s | --permissions | -p | --owner | -o | --last-modified | -m]: Get information about a file. Options to obtain specific information.
 
-./internsctl.sh --version
+bash
 
+internsctl file getinfo <file-name>
+internsctl file getinfo --size <file-name>
+Additional Information
+--help: Display help message.
 
+bash
 
+internsctl --help
+--version: Display command version.
+
+bash
+
+internsctl --version
+Examples
+Display usage examples here.
+Author
+Your Name

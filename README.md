@@ -1,10 +1,15 @@
 # xenonestack
 
 **for Round_1** -->
+
 By saving the given file :
+
 for example, internsctl.sh. 
+
 Make it executable by running following command:
+
 **"" chmod +x internsctl.sh ""**
+
 Now, we can use the following commands:
 
 **1: Manual Page:**
@@ -15,6 +20,7 @@ man ./internsctl.sh
 
 
 ./internsctl.sh --help
+
 **Version Option:**
 
 

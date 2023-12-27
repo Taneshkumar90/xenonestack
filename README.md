@@ -14,7 +14,7 @@ Now, we can use the following commands:
 
 **1: Manual Page:**
 
-man ./internsctl.sh
+manual ./internsctl.sh
 
 **Help Option:**
 
@@ -24,7 +24,7 @@ man ./internsctl.sh
 **Version Option:**
 
 
-./internsctl.sh --versio
+./internsctl.sh --version
 
 
 

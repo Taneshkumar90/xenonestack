@@ -15,27 +15,35 @@ man ./internsctl.sh
 ./internsctl.sh --help
 **Version Option:**
 
+
 ./internsctl.sh --version
 
 
 **for more explation follow bellow given steps**
 
+
 #!/bin/bash
 
 # internsctl - Custom Linux Command for Operations
-# Version: v0.1.0
+
+
 
 # Function to display manual page
+
 show_manual() 
 
 # Function to display help
+
 show_help()
 
 
 
 **2. Help Option:**
+
 ./internsctl.sh --help
+
 **3. Version Option:**
+
 ./internsctl.sh --version
 
 

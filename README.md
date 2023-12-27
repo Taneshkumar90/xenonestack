@@ -6,7 +6,9 @@ for example, internsctl.sh.
 Make it executable by running following command:
 **"" chmod +x internsctl.sh ""**
 Now, we can use the following commands:
+
 **1: Manual Page:**
+
 man ./internsctl.sh
 
 **Help Option:**
@@ -16,13 +18,10 @@ man ./internsctl.sh
 **Version Option:**
 
 
-./internsctl.sh --version
+./internsctl.sh --versio
 
 
-**for more explation follow bellow given steps**
 
-
-#!/bin/bash
 
 # internsctl - Custom Linux Command for Operations
 
